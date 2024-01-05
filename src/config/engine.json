@@ -1,0 +1,24 @@
+{
+  "engineName": "search-engine",
+  "endpointBase": "https://1fbdbb3a822d4082a721a9f5217ca4b1.ent-search.us-central1.gcp.cloud.es.io",
+  "searchKey": "search-74immdtohtxhn6g93dzkgmpq",
+  "resultFields": [
+    "image",
+    "memory",
+    "os",
+    "rating",
+    "description",
+    "type",
+    "battery",
+    "processor",
+    "reamaining",
+    "price",
+    "name",
+    "warranty",
+    "id"
+  ],
+  "sortFields": ["battery", "memory", "price", "rating"],
+  "facets": ["memory", "processor", "rating", "os"],
+  "titleField": "name",
+  "thumbnailField": "image"
+}
